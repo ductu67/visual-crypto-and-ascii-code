@@ -24,13 +24,14 @@ for x in range(infile1.size[0]):
 Việc sử dung pytesseract có thể chuyển ảnh nền trắng chữ đen sang text được, còn ảnh đã mã hóa thì không thành công
 Do bị nhiễu quá
 """
-pytesseract.pytesseract.tesseract_cmd = 'C:/Program Files/Tesseract-OCR/tesseract.exe'
+pytesseract.tesseract_cmd = 'C:/Program Files/Tesseract-OCR/tesseract.exe'
 # outfile.save('outfile.jpg')
 # chuyển từ image to string
 result = pytesseract.image_to_string(outfile)
 # in ra kết quả text
 print(result)
 # show image ra màn hình
+outfile.save('out.jpg')
 outfile.show()
 
 # Xu ly doan text lấy được ra
