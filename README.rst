@@ -4,12 +4,12 @@ Usage Ascii-code and Visual Crypotography
 
 Use library pillow and pytesseract
 
-pip install pillow
+``pip install pillow``
 
-pip install pytesseract
+``pip install pytesseract``
 
 Usage:
     ``python encode.py``
-        - encode from string to text and to 2 shares
+        - Encode from string to text and to 2 shares
     ``python decode.py``
-        - decode from text to string
+        - Decode from text to string
